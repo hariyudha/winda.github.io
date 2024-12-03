@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Winda!</title>
+    <!-- Menambahkan Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4e1d2;
+            color: #333;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        h1 {
+            margin-top: 50px;
+            font-size: 4rem;
+            color: #ff6f91;
+            font-family: 'Great Vibes', cursive; /* Menggunakan font Great Vibes */
+            animation: fadeInBounce 1.5s ease-out;
+        }
+
+        @keyframes fadeInBounce {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+            60% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin: 20px 0;
+            color: #444;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeIn 2s ease-out;
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .button {
+            display: inline-block;
+            margin: 30px auto;
+            padding: 15px 30px;
+            background: #ff6f91;
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-size: 1.2rem;
+            transition: 0.3s ease;
+            animation: blink 1s linear infinite;
+        }
+
+        @keyframes blink {
+            0%, 100% {
+                background-color: #ff6f91;
+                box-shadow: 0 0 10px rgba(255, 111, 145, 0.8);
+            }
+            50% {
+                background-color: #ff4081;
+                box-shadow: 0 0 20px rgba(255, 64, 129, 1);
+            }
+        }
+
+        .wish {
+            margin: 20px 0;
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: fadeIn 2s ease-out;
+        }
+
+        .wish-button {
+            margin-top: 20px;
+            padding: 15px 30px;
+            background: #ff6f91;
+            color: white;
+            text-decoration: none;
+            border-radius: 15px;
+            font-size: 1.2rem;
+            transition: 0.3s ease;
+            display: inline-block;
+            box-shadow: 0 0 10px rgba(255, 111, 145, 0.7);
+        }
+
+        .wish-button:hover {
+            background: #ff4081;
+            box-shadow: 0 0 20px rgba(255, 64, 129, 0.8);
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+     <h1>🎉Happy Birthday!🎉</h1>
+    <!-- Menambahkan elemen audio -->
+    <audio id="audioPlayer" src="JVKE - golden hour (Piano Cover by Riyandi Kusuma) - Riyandi Kusuma (youtube).mp3"></audio>
+    <button class="button" onclick="playAudio()">Pencet Biar Romantis 🎶</button>
+
+    <script>
+        function playAudio() {
+            var audio = document.getElementById('audioPlayer');
+            audio.play(); // Memutar audio menggunakan elemen <audio> yang sudah disiapkan
+        }
+    </script>
+
+    <p>
+        Happy birthday my favorite human, Windulll! 🎉 Akhirnya kamu masuk ke angka 20. Wow, dah dewasa nih, tapi tetap aja ngambekan kayak bocil kematian. Makasih ya bokem satu ini uda bikin hidup aku jauh lebih indah dan seru, dan menantang, anjay.
+    </p>
+
+    <p>Oya aku ada beberapa 'wish' untuk kamu, Buka satu-satu ya, sayang!🤗</p>
+
+    <!-- Wish 1 -->
+    <div class="wish">
+        <button class="wish-button" onclick="alert('Honestly, I can’t believe how lucky I am to have someone as amazing as you in my life. I just want you to know, even when I’m being annoying or playful, you’re still my most favorite person to annoy. Kek udah jadi love language aku sayang, hahaha! 🫰🏻')">Wish 1</button>
+    </div>
+
+    <!-- Wish 2 -->
+    <div class="wish">
+        <button class="wish-button" onclick="alert('Di umur kamu yang ke-20 ini, aku punya banyak harapan buat kamu. Semoga kamu selalu dikelilingi kebahagiaan, entah itu dari keluarga, teman, atau aku. Semoga semua impianmu yang kamu simpan diam-diam mulai terwujud satu per satu, ya. Semoga doa doa kamu selama ini dikabulkan, semoga lelahmu jadi lillah, semoga doa sehabis solat dan ngajimu dikabulkan bahahaha padahal gaperna sholat, eee yaampun 🫣')">Wish 2</button>
+    </div>
+
+    <!-- Wish 3 -->
+    <div class="wish">
+        <button class="wish-button" onclick="alert('I hope you never lose that bright smile of yours, karena senyum kamu mengubah hari aku yang biasa jadi di luar nurul. Aku juga berharap kamu tetap jadi kamu yang sekarang: kuat, baik hati, lucu, ceria dan penuh cinta. Aku bakal selalu ada di sini buat kamu, no matter what happens sayang 🥰')">Wish 3</button>
+    </div>
+
+    <!-- Wish 4 -->
+    <div class="wish">
+        <button class="wish-button" onclick="alert('Win, mungkin aku nggak selalu pandai bilang kayak gini, tapi aku mau kamu tahu satu hal: you are my favorite person in this entire world. Kalau kamu lagi sedih, aku pengen jadi orang pertama yang bikin kamu ketawa lagi. Kalau kamu lagi bahagia, aku pengen jadi orang pertama yang bilang, “Gawendenggg” 🫶🏻')">Wish 4</button>
+    </div>
+
+    <!-- Wish 5 -->
+    <div class="wish">
+        <button class="wish-button" onclick="alert('Aku tahu aku nggak sempurna, kadang aku bisa ngeselin atau bahkan bikin kamu kesel. Tapi, aku selalu ingin yang terbaik buat kamu. Aku nggak pernah bosen bersyukur, karena aku punya kamu di hidup aku. Kamu itu bukan cuma pacar, tapi juga partner terbaik yang pernah aku punya taw 🥹')">Wish 5</button>
+    </div>
+
+    <!-- Wish 6 -->
+    <div class="wish">
+        <button class="wish-button" onclick="alert('So, here’s to you, Winda. To all the beautiful memories we’ve made, and to the countless ones we’ll create in the future. Selamat ulang tahun yang ke-20, ya. Aku sayang banget sama kamu. Always have, always will. Let’s make this year even more amazing, together. Love you to the moon and back! 💝')">Wish 6</button>
+    </div>
+
+    <footer>
+        From: Hari Yudha Fajar 💌 | To: Winda Noviana Putri
+    </footer>
+</body>
+</html>
+
+    
